@@ -1,0 +1,28 @@
+@import '../../../styles/variables.scss';
+
+.shortcuts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+
+  .techStack {
+    flex-basis: 48%;
+    background-color: $secondary-color;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      
+      li {
+        list-style: none;
+        padding: .7rem;
+      }
+    }
+  }
+
+  .projects {
+    flex-basis: 48%;
+    background-color: $secondary-color;
+  }
+}

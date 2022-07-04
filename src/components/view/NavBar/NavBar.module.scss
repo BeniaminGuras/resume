@@ -1,0 +1,39 @@
+@import '../../../styles/variables.scss';
+
+nav {
+  border-bottom: .5px solid #254d4c8b;
+
+}
+
+.wrapper { 
+  display: flex;
+  justify-content: space-between;
+  margin: .5rem 0;
+
+  .menu {
+
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 .8rem;
+      
+      a {
+        text-decoration: none;
+        color: #FFF5F9;
+        font-family: $text-font;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+    margin: 0 2.5rem 0 0;
+
+    i {
+      margin: auto;
+      font-size: 1.5rem;
+      padding: 0.5rem 0.3rem 0.5rem 0.4rem;
+    }
+  }
+}
