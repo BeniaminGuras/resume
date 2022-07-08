@@ -10,6 +10,9 @@ const Projects = () => {
 		{id: 'Waiters App',
 		shortDescription: 'Web Application for waiters - it allows to check the orders, bills and overall status of table',
 		img:'waiters'},
+		{id: 'Cos',
+		shortDescription: 'Web Application for waiters - it allows to check the orders, bills and overall status of table',
+		img:'waiters'},
 	]
 
 	return(
