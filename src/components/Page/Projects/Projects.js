@@ -7,15 +7,9 @@ const Projects = () => {
 		{id: 'Pizzeria',
 		shortDescription: 'Side for the restaurant with orders online and the table booking. Comunication with API',
 		img:'pizzeria'},
-		{id: 'Cos',
-		shortDescription: 'Side for the restaurant with orders online and the table booking. Comunication with API',
-		img:'pizzeria'},
-		{id: 'Cos',
-		shortDescription: 'Side for the restaurant with orders online and the table booking. Comunication with API',
-		img:'pizzeria'},
-		{id: 'Cos',
-		shortDescription: 'Side for the restaurant with orders online and the table booking. Comunication with API',
-		img:'pizzeria'}
+		{id: 'Waiters App',
+		shortDescription: 'Web Application for waiters - it allows to check the orders, bills and overall status of table',
+		img:'waiters'},
 	]
 
 	return(
