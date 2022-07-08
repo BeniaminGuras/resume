@@ -1,4 +1,5 @@
 @import '../../../styles/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 
 nav {
   border-bottom: .5px solid #254d4c8b;
@@ -17,11 +18,28 @@ nav {
       display: inline-block;
       padding: 0 .8rem;
       
+      .logo {
+        font-size: 2.5rem;
+        font-family: 'Splash', cursive;
+        color: lighten($secondary-color, 10%);
+        padding-right: 1.9rem;
+      }
+
       a {
         text-decoration: none;
         color: #FFF5F9;
         font-family: $text-font;
         font-size: 1.2rem;
+      }
+
+      .activeStyle { 
+        color: lighten($secondary-color, 20%);
+      }
+
+      a:hover { 
+        letter-spacing: .15rem;
+        color: lighten($secondary-color, 60%);
+        transition: .75s;
       }
     }
   }

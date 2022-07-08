@@ -24,7 +24,7 @@ const Shortcuts = () => {
           {technologies.map(
             x => {
               return (
-                <li>{x}</li>
+                <li key={x}>{x}</li>
               )
             }
           )}

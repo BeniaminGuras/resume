@@ -9,6 +9,8 @@
   .techStack {
     flex-basis: 48%;
     background-color: $secondary-color;
+    outline: .1rem solid darken($secondary-color, 10%);
+    outline-offset: .5rem;
 
     ul {
       display: flex;
@@ -24,5 +26,7 @@
   .projects {
     flex-basis: 48%;
     background-color: $secondary-color;
+    outline: .1rem solid darken($secondary-color, 10%);
+    outline-offset: .5rem;
   }
 }
