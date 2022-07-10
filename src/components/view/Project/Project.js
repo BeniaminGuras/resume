@@ -7,7 +7,7 @@ const Project = ({ projectDetails }) => {
     return(
         <div className={styles.project}>
             <div className={styles.imageBox}>
-                <img src={`../../../../${process.env.PUBLIC_URL}/images/photos/${projectDetails.img}.jpg`} alt="project"></img>
+                <img src={`../../../../${process.env.PUBLIC_URL}/images/projects/${projectDetails.img}.jpg`} alt="project"></img>
             </div>
             <div className={styles.descriptionBox}>
                 <div className={styles.id}>

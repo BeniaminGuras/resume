@@ -7,6 +7,7 @@
   background-color: #C0BFBF;
   border-radius: .65rem;
   color: black;
+  font-family: $text-font;
 
   .imageBox {
     width: 100%;
@@ -27,6 +28,7 @@
 
     h3 {
       text-align: center;
+      font-family: $header-font;
     }
 
     p {
