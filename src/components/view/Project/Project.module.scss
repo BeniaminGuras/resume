@@ -8,6 +8,7 @@
   border-radius: .65rem;
   color: black;
   font-family: $text-font;
+  
 
   .imageBox {
     width: 100%;
@@ -32,7 +33,16 @@
     }
 
     p {
+      font-family: $text-font;
       text-align: center;
+      font-size: 1.1rem;
+      letter-spacing: 0.05rem;
+      padding: 0 1rem 1rem 1rem;
+      font-weight: 500;
+
+      span {
+        font-weight: bold;
+      }
     }
   }
 }

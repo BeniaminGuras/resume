@@ -1,5 +1,7 @@
+import styles from './Contact.module.scss';
+
 
 const Contact = () => 
-    <div><p>Nara</p></div>
+    <div className={styles.contact}><p>Nara</p></div>
 
 export default Contact;

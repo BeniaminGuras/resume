@@ -4,13 +4,14 @@
 nav {
   border-bottom: .5px solid #254d4c8b;
   z-index: 9999;
-
+  
 }
 
 .wrapper { 
   display: flex;
   justify-content: space-between;
   margin: .5rem 0;
+  margin-top: 0;
 
   .menu {
 

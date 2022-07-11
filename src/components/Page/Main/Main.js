@@ -5,10 +5,10 @@ import styles from './Main.module.scss';
 const Main = () => {
 
   return (
-    <div className={styles.informations}>
-      <Hero />
-      <Shortcuts />
-    </div>
+        <div className={styles.informations}>
+          <Hero />
+          <Shortcuts />
+        </div>
   )
 }
 

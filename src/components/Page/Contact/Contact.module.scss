@@ -1,10 +1,7 @@
 @import '../../../styles/variables.scss';
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
+.contact {
+  
   -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }

@@ -1,6 +1,7 @@
 import { personal, professional } from '../../../db/informations';
 import LifeDescription from '../LifeDescription/LifeDescription';
 import styles from './Life.module.scss';
+import { nanoid } from 'nanoid';
 
 const Life = ({ lifeSection }) => {
   
@@ -25,7 +26,7 @@ const Life = ({ lifeSection }) => {
       <div className={styles.mainWrapper}>
         {informationsAboutMe.map(
           x => 
-            <LifeDescription box={x} key={x.title} />
+            <LifeDescription box={x} key={nanoid()} />
         )}
       </div>
     </div>

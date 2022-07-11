@@ -1,11 +1,11 @@
+@import '../../../styles/variables.scss';
 
 .informations {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1140px;
   display: flex;
   flex-direction: column;
   z-index: -1;
+  margin: 9rem 0 9rem 0;
+
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }

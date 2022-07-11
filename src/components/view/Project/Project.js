@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import styles from './Project.module.scss';
 
 
 
 const Project = ({ projectDetails }) => {
+
+    const [showModule, setShowModule] = useState(false);
 
     return(
         <div className={styles.project}>
@@ -14,7 +17,7 @@ const Project = ({ projectDetails }) => {
                     <h3>{projectDetails.id}</h3>
                 </div>
                 <div className={styles.description}>
-                    <p>{projectDetails.shortDescription}, <span onClick={() => alert('siema')}>view more...</span></p>
+                    <p>{projectDetails.shortDescription}, <span onClick={() => setShowModule(true)}>view more...</span></p>
                 </div>
             </div>
         </div>

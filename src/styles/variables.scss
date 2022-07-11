@@ -5,3 +5,22 @@ $text-font: 'Source Sans Pro', sans-serif;
 $main-dark-color: #1b1a1a;
 $main-light-color: #efe6e6;
 $secondary-color: #00AAA9; 
+
+//* animations *//
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
