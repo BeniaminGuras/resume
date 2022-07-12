@@ -22,9 +22,9 @@ const NavBar = props => {
             }>Contact</NavLink></li>
             </ul>
           </div>
-          <div className={styles.icons}>
+          {/* <div className={styles.icons}>
             <i className="fa fa-moon"></i>
-          </div>
+          </div> */}
         </div>
     </nav>
   )

@@ -1,15 +1,88 @@
+@import '../../../styles/variables.scss';
 
 .modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid blue;
+  border: 0.1rem solid white;
+  background-color: lighten($main-dark-color, 30%);
   border-radius: 10px;
   z-index: 10;
-  background-color: white;
-  height: 500px;
   width: 800px;
   max-width: 80%;
+  color: $main-light-color;
+
+  .header { 
+    display: flex;
+    flex-direction: row;
+
+    .title {
+      flex-basis: 99%;
+      margin-top: 2rem;
+      
+      h1 {
+        text-align: center;
+        font-family: $header-font;
+        font-size: 2rem;
+      }
+    }
+
+    .icon { 
+      flex-basis: 1%;
+      position: relative;
+      
+      i {
+        position: absolute;
+        left: -5rem;
+        font-size: 1.5rem;
+        top: 2.2rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .modalBody {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .description {
+      text-align: center;
+      letter-spacing: .02rem;
+      font-family: $text-font;
+      font-size: 1.25rem;
+
+      a {
+        color: $main-light-color;
+        text-decoration: none;
+      }
+    }
+
+    .closeButton {
+      margin: 5rem auto;
+
+      button {
+        padding: 1rem 3rem;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        font-family: $text-font;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.665);
+  top: -40rem;
+  left: -40rem;
+  height: 300vh;
+  width: 300vw;
+  z-index: -100;
 
 }

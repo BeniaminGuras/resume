@@ -9,17 +9,19 @@ const Modal = ({ projectDetails, setShowModal }) => {
           <h1>{projectDetails.id}</h1>
         </div>
         <div className={styles.icon}>
-          <p>I</p>
+          <i onClick={() => setShowModal(false)} class="fa-solid fa-x"></i>
         </div>
       </div>
       <div className={styles.modalBody}>
         <div className={styles.description}>
           <p>{projectDetails.description}</p>
+          <p>Link to GitHub repository: <a href={projectDetails.gitHub} target="_blank" rel="noreferrer">{projectDetails.id}</a></p>
         </div>
-        <div className={styles.button}>
+        <div className={styles.closeButton}>
           <button onClick={() => setShowModal(false)}>Close</button>
         </div>
       </div>
+      <div onClick={() => setShowModal(false)} className={styles.overlay}></div>
     </div>
   )
 }

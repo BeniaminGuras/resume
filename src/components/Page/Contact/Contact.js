@@ -1,7 +1,8 @@
 import styles from './Contact.module.scss';
+import ContactForm from '../../view/ContactForm/ContactForm';
 
 
 const Contact = () => 
-    <div className={styles.contact}><p>Nara</p></div>
+    <ContactForm></ContactForm>
 
 export default Contact;
