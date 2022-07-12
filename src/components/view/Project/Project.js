@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import styles from './Project.module.scss';
-
+import Modal from '../Modal/Modal';
 
 
 const Project = ({ projectDetails }) => {
 
-    const [showModule, setShowModule] = useState(false);
+    const [showModal, setShowModal] = useState(false);
 
     return(
         <div className={styles.project}>
@@ -17,9 +17,10 @@ const Project = ({ projectDetails }) => {
                     <h3>{projectDetails.id}</h3>
                 </div>
                 <div className={styles.description}>
-                    <p>{projectDetails.shortDescription}, <span onClick={() => setShowModule(true)}>view more...</span></p>
+                    <p>{projectDetails.shortDescription}, <span onClick={() => setShowModal(true)}>view more...</span></p>
                 </div>
             </div>
+            {showModal ? <Modal setShowModal={setShowModal} projectDetails={projectDetails} /> : undefined }
         </div>
     )
 }
