@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+.contact {
+  margin: 10rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: $text-font;
+
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  background-color: $secondary-color;
+  outline: .1rem solid darken($secondary-color, 10%);
+  outline-offset: .5rem;
+  padding: 2rem;
+
+}
