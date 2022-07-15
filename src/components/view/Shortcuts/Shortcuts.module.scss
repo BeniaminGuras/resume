@@ -30,3 +30,13 @@
     outline-offset: .5rem;
   }
 }
+
+@media (max-width: 500px){
+  .shortcuts {
+    flex-direction: column;
+
+    .techStack {
+      margin-bottom: 4rem;
+    }
+  }
+}

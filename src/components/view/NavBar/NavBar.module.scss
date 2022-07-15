@@ -4,7 +4,6 @@
 nav {
   border-bottom: .5px solid #254d4c8b;
   z-index: 9999;
-  
 }
 
 .wrapper { 
@@ -15,39 +14,63 @@ nav {
 
   .menu {
 
-    li {
-      list-style: none;
-      display: inline-block;
-      padding: 0 .8rem;
-      
-      .logo {
-        font-size: 2.5rem;
-        font-family: 'Splash', cursive;
-        color: lighten($secondary-color, 10%);
-        padding-right: 1.9rem;
+    ul {
+      display: flex;
+
+      .logoBox {
+
+        li {
+          list-style: none;
+          display: inline-block;
+          padding: 0 .8rem;
+
+          a {
+            text-decoration: none;
+            color: #FFF5F9;
+            font-family: $text-font;
+            font-size: 1.2rem;
+          }
+        }
+
+        .logo {
+          font-size: 2.5rem;
+          font-family: 'Splash', cursive;
+          color: lighten($secondary-color, 10%);
+          padding-right: 1.9rem;
+        }
+  
+        .logo:hover {
+          color: lighten($secondary-color, 60%);
+          transition: .75s;
+        }
       }
 
-      .logo:hover {
-        letter-spacing: .05rem;
-        transition: .75s;
-      }
+      .menuBox {
+        margin-top: 1.25rem;
 
-      a {
-        text-decoration: none;
-        color: #FFF5F9;
-        font-family: $text-font;
-        font-size: 1.2rem;
+        li {
+          list-style: none;
+          display: inline-block;
+          padding: 0 .8rem;
+    
+          a {
+            text-decoration: none;
+            color: #FFF5F9;
+            font-family: $text-font;
+            font-size: 1.2rem;
+          }
+    
+          .activeStyle { 
+            color: lighten($secondary-color, 20%);
+          }
+    
+          a:hover { 
+            color: lighten($secondary-color, 60%);
+            transition: .75s;
+          }
+        }
       }
-
-      .activeStyle { 
-        color: lighten($secondary-color, 20%);
-      }
-
-      a:hover { 
-        color: lighten($secondary-color, 60%);
-        transition: .75s;
-      }
-    }
+    }   
   }
 
   .icons {
@@ -58,6 +81,41 @@ nav {
       margin: auto;
       font-size: 1.5rem;
       padding: 0.5rem 0.3rem 0.5rem 0.4rem;
+    }
+  }
+}
+
+@media (max-width: 600px){
+
+  .wrapper {
+    position: relative;
+
+    .menu {
+      margin: 0 auto;
+
+      ul {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0;
+  
+        .logoBox {
+          margin: 2rem auto;
+
+          li {
+            padding: 0;
+
+            .logo {
+              padding: 0;
+            }
+          }
+
+          
+        }
+  
+        .menuBox {
+          margin: 0 auto;
+        }
+      }
     }
   }
 }

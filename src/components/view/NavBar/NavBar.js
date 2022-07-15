@@ -8,18 +8,22 @@ const NavBar = props => {
         <div className={styles.wrapper}>
           <div className={styles.menu}>
             <ul>
-              <li><NavLink to="/" className={({ isActive }) =>
-              isActive ? styles.activeStyle : undefined
-            }><span className={styles.logo}>Guras</span></NavLink></li>
-              <li><NavLink to="/about" className={({ isActive }) =>
-              isActive ? styles.activeStyle : undefined
-            }>About me</NavLink></li>
-              <li><NavLink to="/projects" className={({ isActive }) =>
-              isActive ? styles.activeStyle : undefined
-            }>Projects</NavLink></li>
-              <li><NavLink to="/contact" className={({ isActive }) =>
-              isActive ? styles.activeStyle : undefined
-            }>Contact</NavLink></li>
+              <div className={styles.logoBox}>
+                <li><NavLink to="/" className={({ isActive }) =>
+                  isActive ? styles.activeStyle : undefined
+                }><span className={styles.logo}>Guras</span></NavLink></li>
+              </div>
+              <div className={styles.menuBox}>
+                  <li><NavLink to="/about" className={({ isActive }) =>
+                  isActive ? styles.activeStyle : undefined
+                }>About me</NavLink></li>
+                  <li><NavLink to="/projects" className={({ isActive }) =>
+                  isActive ? styles.activeStyle : undefined
+                }>Projects</NavLink></li>
+                  <li><NavLink to="/contact" className={({ isActive }) =>
+                  isActive ? styles.activeStyle : undefined
+                }>Contact</NavLink></li>
+              </div>
             </ul>
           </div>
           {/* <div className={styles.icons}>

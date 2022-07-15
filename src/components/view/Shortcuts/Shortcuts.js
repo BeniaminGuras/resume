@@ -12,9 +12,10 @@ const Shortcuts = () => {
     'CSS',
     'SCSS',
     'RWD',
-    'Bootstrap'];
+    'Bootstrap'
+    ];
 
-    const workingOn = 'Nice project';
+    const workingOn = 'Wiki/Post website about games with dynamic user interaction';
 
   return(
     <div className={styles.shortcuts}>

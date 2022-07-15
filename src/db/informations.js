@@ -2,7 +2,7 @@ export const personal = [
   {
     type: 'text',
     title: 'My story',
-    description: 'Since a very beginning I\'m in love with the video games. In age of 7 I was doing my first maps and "mods" to games like Half Life. Because of that I started to interest in things like computers - and that\'s how it begins. After the computeres were mobile phones (I still remember when my dad bought a first Nokia with color display). When I was 9 I have built my first computer. I didn\'t knew it then but at this moment I already found a passion for whole my life. I had to know everything about technology and how things works - so the next step was natural... Programming! And so, that\'s how I\'m here where I\'m...'
+    description: 'I\'ve been in love with video games from the very beginning. At the age of 7, I was making my first maps and "mods" for games like Half Life. Because of this, I became interested in things like computers - and that\'s how it starts. After computers, there were cell phones (I still remember when my dad bought the first Nokia with a color display). When I was 9 years old I built my first computer. I didn\'t know it at the time, but at that point I already found a passion for life. I needed to know everything about technology and how it works - so the next step was natural ... Programming! And so I am here where I am ...'
   },
   {
     type: 'list',
@@ -33,12 +33,12 @@ export const professional = [
   {
     type: 'text',
     title: 'Programming skills',
-    description: 'I wrote first code in age of 11. Since then I had a lof of opportunities to code in a lot of languages. I have finished hight school with the IT profile - that was the place when I had the chance to work with frontend technologies, over there I have learned HTML, JavaScript and CSS. After that I focused on C++ and Python. Few years later I asigned myself for a frontend react developer bootcamp where I added React, React Router and Redux to the list of my skills.',
+    description: 'I wrote my first code when I was 11. Since then, I\'ve had plenty of opportunities to code in multiple languages. I graduated from high school with an IT profile - there I had the opportunity to work with frontend technologies, over there I learned HTML, JavaScript and CSS. Then I focused on C ++ and Python. A few years later, I signed myself for the Frontend React developer bootcamp where I added React, React Router and Redux to my skills list.',
   },
   {
     type: 'text',
     title: 'Experience',
-    description: 'For a three years I was working as a Logistic Specialist for one of the biggest automotive production companies (Simoldes Plasticos). Programming skills allowed me to automate the logisitc work - that\'s why I was noticed and been promoted for a IT Administrator with the responosibilities of department\'s manager. Over the years I have develop a lot of applications to "make a life easier", not only for the Simoldes Plasticos but also as a freelancer.',
+    description: 'For three years I worked as a Logistics Specialist in one of the largest automotive companies (Simoldes Plasticos). Programming skills allowed me to automate logistics work - thanks to this, I was noticed and promoted to the IT administrator with the duties of the head of the department. Over the years I have developed many applications to "make life easier".',
   },
   {
     type: 'list',
@@ -48,7 +48,7 @@ export const professional = [
   {
     type: 'text',
     title: 'Ambitions, Plans',
-    description: 'As a courious and ambitious person I would love to develop my skills in a most universal way. That\'s why I focus my energy to become a fullstack developer. Which would allowe me to growth not only in one direction. To make it real in the near future I plan to add a node.js to my technology stack.',
+    description: 'As a curious and ambitious person, I would like to develop my skills in the most universal way. That\'s why my focus is on becoming a fullstack developer. Which would allow me to develop not only in one direction. To make this a reality in the near future, I plan to add node.js to my technology stack.',
   }
 ]
 
@@ -70,7 +70,7 @@ export const recentProject = [
   {
     id: 'Form Project',
     shortDescription: 'Demo of conditional form build with React',
-    description: 'Demo of form that generates the question conditianlly, after submiting it checks the correctness of filled inputs - if it\'s ok it starts communication with API. Demo is created in React.',
+    description: 'Demo of form that generates the questions conditianlly. After submiting it checks the correctness of filled inputs - if it\'s ok it starts communication with API. Demo is created in React.',
     gitHub: 'https://github.com/BeniaminGuras/form_project',
     img:'form'
   },

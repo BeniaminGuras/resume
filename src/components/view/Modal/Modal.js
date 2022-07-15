@@ -9,7 +9,7 @@ const Modal = ({ projectDetails, setShowModal }) => {
           <h1>{projectDetails.id}</h1>
         </div>
         <div className={styles.icon}>
-          <i onClick={() => setShowModal(false)} class="fa-solid fa-x"></i>
+          <i onClick={() => setShowModal(false)} className="fa-solid fa-x"></i>
         </div>
       </div>
       <div className={styles.modalBody}>
