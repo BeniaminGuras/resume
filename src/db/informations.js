@@ -71,6 +71,7 @@ export const professional = [
 
 export const recentProject = [
   {
+<<<<<<< HEAD
     id: "Pizzeria",
     shortDescription:
       "Side for the restaurant with orders online and booking tables",
@@ -78,6 +79,20 @@ export const recentProject = [
       "Full responsive website for restaurant, it has the online orders, tabels booking, all with API communication. It has been developed in Vanilla JS - in OOP methodology.",
     gitHub: "https://github.com/BeniaminGuras/Pizzeria",
     img: "pizzeria",
+=======
+    id: 'Password Generator',
+    shortDescription: 'Application to generate random password with diffrent settings',
+    description: 'Apllication is developed with TypeScript, React, Styled-components',
+    gitHub: 'https://github.com/BeniaminGuras/password-generator',
+    img:'password'
+  },
+  {
+    id: 'Pizzeria',
+    shortDescription: 'Side for the restaurant with orders online and booking tables',
+    description: 'Full responsive website for restaurant, it has the online orders, tabels booking, all with API communication. It has been developed in Vanilla JS - in OOP methodology.',
+    gitHub: 'https://github.com/BeniaminGuras/Pizzeria',
+    img:'pizzeria'
+>>>>>>> 19b7567fb97cbbdd635715b178a2513e9c1ae7b5
   },
   {
     id: "Waiters App",
